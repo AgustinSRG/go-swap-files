@@ -23,7 +23,7 @@ package main
 
 import (
 	// Import the module
-	swap_files "github.com/AgustinSRG/go-child-process-manager"
+	swap_files "github.com/AgustinSRG/go-swap-files"
 )
 
 func main() {
