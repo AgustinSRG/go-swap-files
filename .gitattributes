@@ -1,0 +1,14 @@
+# Text files configuration
+
+* text eol=lf
+*.eot binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+*.png binary
+*.jpg binary
+*.mp3 binary
+*.mp4 binary
+*.ico binary
+*.mo binary
+
