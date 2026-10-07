@@ -2,7 +2,7 @@
 
 This is a simple library for **Go** to swap 2 files, ensuring cross-platform compatibility while ensuring maximum efficiency and atomicity if possible.
 
- - In Unix operating systems, the swap is atomic using the [renameat2 syscall](https://lwn.net/Articles/569134/).
+ - In Linux operating systems, the swap is atomic using the [renameat2 syscall](https://lwn.net/Articles/569134/).
  - For other operating systems, the swap is done using an intermediary swap file that must be specified. 
 
 [Documentation](https://pkg.go.dev/github.com/AgustinSRG/go-swap-files)
